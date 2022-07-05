@@ -65,4 +65,6 @@ int main()
     cout << endl;
     cout << "구구단을 출력이 완료되었습니다! \n";
     #pragma endregion
+
+    return 0;
 }
