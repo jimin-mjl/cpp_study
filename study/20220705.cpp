@@ -5,7 +5,7 @@ const int SCISSORS = 1;
 const int ROCK = 2;
 const int PAPER = 3;
 
-string convertString(int weapon) {
+string ConvertString(int weapon) {
     switch (weapon)
     {
     case SCISSORS:
@@ -39,7 +39,7 @@ int main()
         }
 
         int computer = (rand() % 3) + 1;  // 1, 2, 3
-        cout << "You: " << convertString(input) << " vs " << "Computer: " << convertString(computer) << endl;
+        cout << "You: " << ConvertString(input) << " vs " << "Computer: " << ConvertString(computer) << endl;
 
         if (input == computer) {
             cout << "ºñ°å½À´Ï´Ù." << endl;
