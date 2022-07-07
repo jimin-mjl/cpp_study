@@ -1,4 +1,4 @@
-// 포인터를 사용한 value swapping
+// Value swapping using Pointer
 
 #include <iostream>
 using namespace std;

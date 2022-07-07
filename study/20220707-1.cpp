@@ -1,4 +1,4 @@
-// 디폴트 매개변수 
+// Default Argument
 
 #include <iostream>
 using namespace std;
